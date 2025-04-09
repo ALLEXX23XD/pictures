@@ -2,7 +2,7 @@ import { useState } from "react"
 import './searchBar.css'
 
 
-const SearchBar = ({ onSubmit }) => {
+const searchBar = (onSubmit) => {
   const[term, setTerm]= useState('')
 
   const handleFormSubmit= (event) =>{
@@ -27,4 +27,4 @@ console.log('term',term)
   )
 }
 
-export default SearchBar
+export default searchBar

@@ -1,8 +1,11 @@
 
-const imageshow = () => {
+const Imageshow = ({image}) => {
   return (
-    <div>Imageshow</div>
+    <div>
+      <img src={image.urls.small} alt={image.alt_descrption}/>
+
+    </div>  
   )
 }
 
-export default imageshow
+export default Imageshow 
